@@ -1,0 +1,22 @@
+GET http://localhost:5000/users
+
+
+###
+POST  http://localhost:5000/users
+Content-Type: application/json
+
+{
+    "name": "regga",
+    "email": "regga@gmail.com",
+    "password": "1",
+    "confPassword": "1"
+}
+
+###
+POST  http://localhost:5000/login
+Content-Type: application/json
+
+{
+    "email": "regga@gmail.com",
+    "password": "1"
+}
